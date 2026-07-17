@@ -6,7 +6,9 @@
  *   - the postcode reference CSV quotes every value
  */
 import { describe, expect, it } from 'vitest';
-import { columnFinder, normHeader, normPostcode, num } from '../pipeline/lib/xlsx.mjs';
+// parse.mjs, not xlsx.mjs: the latter imports exceljs (a pipeline-only dep that
+// CI's root `npm ci` doesn't install), which would fail the deploy test run.
+import { columnFinder, normHeader, normPostcode, num } from '../pipeline/lib/parse.mjs';
 import { parseCSV, parseTable } from '../pipeline/lib/csv.mjs';
 
 describe('normHeader', () => {
