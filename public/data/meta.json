@@ -1,0 +1,108 @@
+{
+  "year": "2023-24",
+  "years": [
+    "2003-04",
+    "2013-14",
+    "2014-15",
+    "2015-16",
+    "2016-17",
+    "2017-18",
+    "2018-19",
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23",
+    "2023-24"
+  ],
+  "generated": "2026-07-17T13:30:39.989Z",
+  "counts": {
+    "postcodes": 2283,
+    "individuals": 16379323,
+    "polygons": 2266
+  },
+  "national": {
+    "medianOfMedians": 56118,
+    "medianOfAverages": 69146,
+    "medianGap": 1.2295,
+    "totalNetTax": 326993269703
+  },
+  "extremes": {
+    "topMedian": [
+      {
+        "pc": "6716",
+        "name": "Fortescue",
+        "st": "WA",
+        "v": 142580
+      },
+      {
+        "pc": "6754",
+        "name": "Paraburdoo",
+        "st": "WA",
+        "v": 134252
+      },
+      {
+        "pc": "6751",
+        "name": "Rocklea",
+        "st": "WA",
+        "v": 111679
+      }
+    ],
+    "topAverage": [
+      {
+        "pc": "3944",
+        "name": "Portsea",
+        "st": "VIC",
+        "v": 321988
+      },
+      {
+        "pc": "3142",
+        "name": "Toorak",
+        "st": "VIC",
+        "v": 277708
+      },
+      {
+        "pc": "2023",
+        "name": "Bellevue Hill",
+        "st": "NSW",
+        "v": 250899
+      }
+    ],
+    "topGap": [
+      {
+        "pc": "3142",
+        "name": "Toorak",
+        "st": "VIC",
+        "v": 3.351
+      },
+      {
+        "pc": "2104",
+        "name": "Bayview",
+        "st": "NSW",
+        "v": 2.9692
+      },
+      {
+        "pc": "2023",
+        "name": "Bellevue Hill",
+        "st": "NSW",
+        "v": 2.9472
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "ATO Taxation Statistics 2023-24 — Individuals Table 6, 7, 8",
+      "url": "https://data.gov.au/data/dataset/taxation-statistics-2023-24",
+      "note": "Individual tax return data by postcode. Small cells suppressed for privacy."
+    },
+    {
+      "name": "ABS ASGS 2021 Postal Areas (digital boundaries)",
+      "url": "https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026",
+      "note": "Postcode polygons, mapshaper-simplified to 1.2%."
+    },
+    {
+      "name": "matthewproctor/australianpostcodes",
+      "url": "https://github.com/matthewproctor/australianpostcodes",
+      "note": "Postcode to locality names."
+    }
+  ]
+}

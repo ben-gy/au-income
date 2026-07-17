@@ -1,0 +1,15 @@
+{
+  "name": "au-income-pipeline",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Downloads ATO taxation statistics + ABS postal-area boundaries and builds the site's JSON.",
+  "scripts": {
+    "collect": "node collect.mjs",
+    "aggregate": "node aggregate.mjs",
+    "build": "node collect.mjs && node aggregate.mjs"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
