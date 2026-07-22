@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Ben Richardson — https://benrichardson.dev
+// Additional terms under AGPL-3.0 section 7(b) apply; see ADDITIONAL-TERMS.md.
 /**
  * ANZSCO occupation major groups, in the exact order Table 7C emits them.
  * Index 0 is "Not stated" — kept rather than dropped because in retiree-heavy

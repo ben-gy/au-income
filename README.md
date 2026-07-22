@@ -89,6 +89,17 @@ Columns are matched by **header text, never by index** — the ATO reorders colu
 
 This is individuals, not households; taxable income, not wealth or take-home pay; and only people who lodged a return. A postcode is not a suburb. See the in-app About panel for the full list.
 
-## License
+## license
 
-MIT
+[GNU Affero General Public License v3.0 or later](./LICENSE), with an attribution
+requirement added under section 7(b) — see
+[ADDITIONAL-TERMS.md](./ADDITIONAL-TERMS.md).
+
+In short: you may run, modify, redistribute and even sell this, but if you
+distribute it — or run a modified version where other people can reach it — you
+have to publish your source under the same licence and keep the attribution. A
+separate commercial licence without those obligations is available on request:
+<hi@ben.gy>.
+
+Third-party components keep their own licences — see
+[THIRD-PARTY-NOTICES.md](./THIRD-PARTY-NOTICES.md).
